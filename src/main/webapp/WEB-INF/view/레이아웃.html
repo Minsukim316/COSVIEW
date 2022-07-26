@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    *{
+        border: 1px solid gray;
+    }
+    #n{
+        display: flex;
+        width: 80px;
+        min-height: 100vh;
+        height: 100%;
+        flex-direction:column;
+        justify-content: space-between;
+        position: fixed;
+        left: 0px;
+        z-index: 10;
+        top: 0px;
+        background-color: green;
+    }
+    .main{
+        width: 80%;
+        margin-left: 10%;
+    }
+</style>
+
+<body>
+    <div id="n">
+        <div>LOGO</div>
+        <div>메뉴바</div> 
+        <div>LOGIN</div>
+    </div>
+
+    <div style="width: 100%; height: 900px; text-align: center; color: white; background-color: black;">
+        민수 비디오
+    </div>
+
+    <div class="main">
+        <div style="height: 400px;">
+           <div style="height: 130px;">컨테츠</div>
+           <div style="height: 200px; width: 80%; margin: 30px auto; background-color: gray;">이미지</div>
+        </div>
+        <hr>
+        <div style="height: 400px; display: flex; justify-content: space-around;">
+            <div style="width: 40%;">슬릭</div>
+            <div style="width: 40%;">설명</div>
+        </div>
+        <hr>
+        <div style="height: 400px; position: relative;">
+            <div style="height: 300px; width: 50%; margin: 50px auto;">회사 명함 사진</div>
+            <div style="height: 300px; width: 20%; position: absolute; left: 60%; top: 50px;">회사 비전 설명</div>
+        </div>
+        <hr>
+        <div style="height: 400px;">
+            회사 가치
+            <hr>
+            <div style="height: 300px;">회사 설명</div>
+            
+        </div>
+
+        <div style="height: 400px;">회사 사진 슬릭</div>
+    </div>
+    
+    <div style="background-color: gray; height: 350px; display: flex; justify-content: space-around; padding: 50px;">
+        <div style="height: 200px;">회사 설명</div>
+        <div style="width: 100px;">회사 SNS 접속</div>
+    </div>
+</body>
+</html>
