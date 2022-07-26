@@ -11,12 +11,12 @@
       <main class="container mb-4">
         <H2 class="text-center mt-5">회원 정보 입력</H2>
         <div class="mt-5 sign-view">
-          <form class="singup-menu" action="join.jsp">
+          <form class="singup-menu" action="MemberJoin.do">
             <label>이름</label><br>
             <input class="text-input form-control" type="text" placeholder=" 이름을 입력하세요."><br>
             <label>아이디</label><button class="menu-btn me-1">중복확인</button><br>
             <input class="text-input form-control" type="text" placeholder=" 아이디를 입력하세요."><br>
-            <label>비밀번호</label><br>
+            <label>비밀번호</label><br>s
             <input class="text-input form-control" type="password" placeholder=" 비밀번호를 입력하세요."><br>
             <label>비밀번호 재확인</label><br>
             <input class="text-input form-control" type="password" placeholder=" 비밀번호를 입력하세요."><br>

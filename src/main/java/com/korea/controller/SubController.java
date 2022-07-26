@@ -1,5 +1,8 @@
 package com.korea.controller;
 
-public class SubController {
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
+public interface SubController {
+	void execute(HttpServletRequest req,HttpServletResponse resp);
 }

@@ -31,7 +31,7 @@
           <div class="text-center mt-3 login-etc">
             <a href="id.jsp">아이디 찾기</a>|
             <a href="pw.jsp">비밀번호 찾기</a>|
-            <a href="Singup.jsp">회원 가입</a>
+            <a href="/MemberJoin.do">회원 가입</a>
           </div>
 
 
