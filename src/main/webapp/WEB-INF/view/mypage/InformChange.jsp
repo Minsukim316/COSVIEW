@@ -44,7 +44,7 @@
 
         </div>
         <hr>
-        <a href="../Mypage/Reg_cancel.html" style="color:red; text-decoration: none;">회원탈퇴를 원하시나요?</a><br>
+        <a href="/resources/Mypage/Reg_cancel.html" style="color:red; text-decoration: none;">회원탈퇴를 원하시나요?</a><br>
 
         <div class="button-div2">
             <button onClick="location.href='../Mypage/cancel_success.html'">확인</button>

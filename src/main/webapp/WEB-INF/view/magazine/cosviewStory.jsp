@@ -14,7 +14,7 @@
             <div class="wrapper">
               <a href="#">
                 <div class="card">
-                    <img src="../image/선크림.png" alt="cosmetic.png">
+                    <img src="/resources/image/선크림.png" alt="cosmetic.png">
                     <div class="iteminfo">
                         <h6>2022 여름이 돌아왔다!!! 인기 선크림 Top10</h6>
                         <p>
@@ -27,7 +27,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/크림.png" alt="cosmetic.png">
+                    <img src="/resources/image/크림.png" alt="cosmetic.png">
                     <div class="iteminfo">
                         <h6>2022 여름이 돌아왔다!!! 인기 크림 Top10</h6>
                         <p>
@@ -40,7 +40,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/밤.png" alt="cosmetic.png">
+                    <img src="/resources/image/밤.png" alt="cosmetic.png">
                     <div class="iteminfo">
                         <h6>2022 여름이 돌아왔다!!! 인기 바디밤 Top10</h6>
                         <p>
@@ -53,7 +53,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/회사이미지.jpg" alt="company.png">
+                    <img src="/resources/image/회사이미지.jpg" alt="company.png">
                     <div class="iteminfo">
                         <h6>COSVIEW를 소개합니다</h6>
                         <p>
@@ -68,7 +68,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/회사이미지2.jpg" alt="company.png">
+                    <img src="/resources/image/회사이미지2.jpg" alt="company.png">
                     <div class="iteminfo">
                         <h6>COSVIEW 개발팀을 소개합니다</h6>
                         <p>
@@ -82,7 +82,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/크림.png" alt="cosmetic.png">
+                    <img src="/resources/image/크림.png" alt="cosmetic.png">
                     <div class="iteminfo">
                         <h6>2022 여름이 돌아왔다!!! 인기 크림 Top10</h6>
                         <p>
@@ -95,7 +95,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/밤.png" alt="cosmetic.png">
+                    <img src="/resources/image/밤.png" alt="cosmetic.png">
                     <div class="iteminfo">
                         <h6>2022 여름이 돌아왔다!!! 인기 바디밤 Top10</h6>
                         <p>
@@ -108,7 +108,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/회사이미지.jpg" alt="company.png">
+                    <img src="/resources/image/회사이미지.jpg" alt="company.png">
                     <div class="iteminfo">
                         <h6>COSVIEW를 소개합니다</h6>
                         <p>
@@ -123,7 +123,7 @@
               </a>
               <a href="#">
                 <div class="card">
-                    <img src="../image/회사이미지2.jpg" alt="company.png">
+                    <img src="/resources/image/회사이미지2.jpg" alt="company.png">
                     <div class="iteminfo">
                         <h6>COSVIEW 개발팀을 소개합니다</h6>
                         <p>

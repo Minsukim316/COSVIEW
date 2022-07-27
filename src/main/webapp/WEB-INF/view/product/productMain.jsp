@@ -104,12 +104,12 @@
             <div class="popular">
               <div>
                 <h2>남성 인기 제품</h2>
-                <a href="ProductReview.jsp"><img src="../image/선크림.png" alt="" width="400px" height="350px"></a>
+                <a href="ProductReview.jsp"><img src="/resources/image/선크림.png" alt="" width="400px" height="350px"></a>
 
               </div>
               <div>
                 <h2>여성 인기 제품</h2>
-                <a href="ProductReview.jsp"><img src="../image/크림.png" alt="" width="400px" height="350px"></a>
+                <a href="ProductReview.jsp"><img src="/resources/image/크림.png" alt="" width="400px" height="350px"></a>
 
               </div>
             </div>
@@ -121,26 +121,26 @@
               </div>
               <div class="best-review">
                 <div>
-                  <img src="../image/밤.png" alt="" width="200px"height="200px">
+                  <img src="/resources/image/밤.png" alt="" width="200px"height="200px">
                   <p>보근짱</p>
                   <p class="review-date">2022-05-19</pc>
                   
                 </div>
 
                 <div>
-                  <img src="../image/밤.png" alt="" width="200px"height="200px">
+                  <img src="/resources/image/밤.png" alt="" width="200px"height="200px">
                   <p>보근짱</p>
                   <p class="review-date">2022-05-19</pc>
                 </div>
 
                 <div>
-                  <img src="../image/밤.png" alt="" width="200px"height="200px">
+                  <img src="/resources/image/밤.png" alt="" width="200px"height="200px">
                   <p>보근짱</p>
                   <p class="review-date">2022-05-19</pc>
                 </div>
 
                 <div>
-                  <img src="../image/밤.png" alt="" width="200px"height="200px">
+                  <img src="/resources/image/밤.png" alt="" width="200px"height="200px">
                   <p>보근짱</p>
                   <p class="review-date">2022-05-19</pc>
                 </div>

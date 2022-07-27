@@ -14,19 +14,13 @@
         </div>
         <table class="table1">
             <tr>
-                <td><img src="../image/logo2.png" alt="사진을 불러올 수 없습니다" style="width: 400px; height: 150px;"></td>
+                <td><img src="/resources/image/logo2.png" alt="사진을 불러올 수 없습니다" style="width: 400px; height: 150px;"></td>
             </tr>
             <tr>
-                <td><img src="../image/check.png" alt="사진을 불러올 수 없습니다"></td>
+                <td><img src="/resources/image/check.png" alt="사진을 불러올 수 없습니다"></td>
             </tr>
             <tr>
                 <td class="td1">환영합니다.</td>
-            </tr>
-            <tr>
-                <td class="td2"></td>
-            </tr>
-            <tr>
-                <td class="td3"></td>
             </tr>
             <tr>
                 <td>회원가입이 완료되었습니다.</td>
@@ -38,7 +32,7 @@
                 <td class="td4"></td>
             </tr>
             <tr>
-                <td><input class="btn btn-outline-success" id="inp1" value="로그인창"></td>
+                <td><input class="btn btn-outline-success" id="inp1" value="로그인창" onclick="location.href='/login.do'"></td>
             </tr>
         </table>
         

@@ -12,7 +12,7 @@
 
 <div style="position: sticky">
     <video autoplay loop muted id="bgvid">
-        <source src="../image/민수.mp4" type="video/mp4">
+        <source src="/resources/image/민수.mp4" type="video/mp4">
     </video>
 
     <h1 class="animate animate_1" style="z-index: 555;">화장품을 리뷰하다</h1>
@@ -38,16 +38,16 @@
     <p>당신이 원하는 제품의 리뷰룰 한눈에 보여드립니다.</p>
 
     <div class="text-center talk">
-        <img src="../image/maintalk.png" width="80%">
+        <img src="/resources/image/maintalk.png" width="80%">
     </div>
     <hr>
     <!-- 화장품 사진과 글 -->
     <div id="product-slick">
         <ul class="multiple-items">
-            <li><img src="../image/밤.png"></li>
-            <li><img src="../image/크림.png"></li>
-            <li><img src="../image/선크림.png"></li>
-            <li><img src="../image/크림.png"></li>
+            <li><img src="/resources/image/밤.png"></li>
+            <li><img src="/resources/image/크림.png"></li>
+            <li><img src="/resources/image/선크림.png"></li>
+            <li><img src="/resources/image/크림.png"></li>
         </ul>
         <div>
             <h1>COSVIEW에서 만나는</h1>
@@ -63,7 +63,7 @@
             <p>팀원 모두가 소통하며 <br>
                 성장하는 자율적 성장 플랫폼</p>
         </div>
-        <img src="../image/lologo.png" alt="" height="300px">
+        <img src="/resources/image/lologo.png" alt="" height="300px">
     </div>
     <div id="value-space">
         <h5>Our values</h5>
@@ -76,10 +76,10 @@
 
     <div class="tmp mt-5">
         <ul class="one-time">
-            <li><img src="../image/회사이미지.jpg" alt="" width="100%"></li>
-            <li><img src="../image/회사이미지2.jpg" alt="" width="100%"></li>
-            <li><img src="../image/회사이미지3.jpg" alt="" width="100%"></li>
-            <li><img src="../image/회사이미지4.jpg" alt="" width="100%"></li>
+            <li><img src="/resources/image/회사이미지.jpg" alt="" width="100%"></li>
+            <li><img src="/resources/image/회사이미지2.jpg" alt="" width="100%"></li>
+            <li><img src="/resources/image/회사이미지3.jpg" alt="" width="100%"></li>
+            <li><img src="/resources/image/회사이미지4.jpg" alt="" width="100%"></li>
         </ul>
     </div>
 </main>

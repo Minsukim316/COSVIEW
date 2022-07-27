@@ -10,10 +10,10 @@
 
       <main class="container mt-5 mb-5">
           <div class="text-center">
-            <img src="../image/logo2.png" style="width: 300px; height: 120px;" alt="Logo">
+            <img src="/resources/image/logo2.png" style="width: 300px; height: 120px;" alt="Logo">
           </div>
           
-          <form action="Member">
+          <form action="/login.do">
               <table style="margin: 0 auto; width: 400px;">
                 <tr class="log-input">
                     <td style="font-size: 25px;">ID</td>

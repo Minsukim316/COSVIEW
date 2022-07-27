@@ -14,7 +14,7 @@
     <h4 class="SubTitle">회사 위치 안내</h4>
     <h6 class="LocationText">주소 : 서울 강남구 테헤란로 146</h6>
 
-    <img id="locationimg" src="../image/위치.png">
+    <img id="locationimg" src="/resources/image/위치.png">
 </main>
 
 

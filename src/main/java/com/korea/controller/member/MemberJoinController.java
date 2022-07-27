@@ -16,35 +16,39 @@ public class MemberJoinController implements SubController{
 		
 		System.out.println("MemberJoin Controller 화긴");
 		
+		String flag = req.getParameter("flag");
 		try {
-			req.getRequestDispatcher("/WEB-INF/view/login/signUp.jsp").forward(req, resp);
-		
-			String name = req.getParameter("name");
-			String id = req.getParameter("id");
-			String pwd = req.getParameter("pwd");
-			String nickname = req.getParameter("nickname");
-			String sex = req.getParameter("sex");
-			String email = req.getParameter("email");
-			String zipcode = req.getParameter("zipcode");
-			String addr1 = req.getParameter("addr1");
-			String addr2 = req.getParameter("addr2");
-			System.out.println(name+","+id+","+pwd+","+nickname+","+sex+","+email+","+zipcode+","+addr1+","+addr2);
-			
-			MemberDTO dto = new MemberDTO();
-			dto.setName(name);
-			dto.setId(id);
-			dto.setPwd(pwd);
-			dto.setNickname(nickname);
-			dto.setSex(sex);
-			dto.setEmail(email);
-			dto.setZipcode(zipcode);
-			dto.setAddr1(addr1);
-			dto.setAddr2(addr2);
-			
-			boolean result = service.MemberInsert(dto);
-			
-			req.getRequestDispatcher("/").forward(req, resp);
-		
+			if(flag==null)
+			{
+				req.getRequestDispatcher("/WEB-INF/view/login/signUp.jsp").forward(req, resp);
+			}
+			else {
+				String name = req.getParameter("name");
+				String id = req.getParameter("id");
+				String pwd = req.getParameter("pwd");
+				String nickname = req.getParameter("nickname");
+				String sex = req.getParameter("sex");
+				String email = req.getParameter("email");
+				String zipcode = req.getParameter("zipcode");
+				String addr1 = req.getParameter("addr1");
+				String addr2 = req.getParameter("addr2");
+				System.out.println(name+","+id+","+pwd+","+nickname+","+sex+","+email+","+zipcode+","+addr1+","+addr2);
+				
+				MemberDTO dto = new MemberDTO();
+				dto.setName(name);
+				dto.setId(id);
+				dto.setPwd(pwd);
+				dto.setNickname(nickname);
+				dto.setSex(sex);
+				dto.setEmail(email);
+				dto.setZipcode(zipcode);
+				dto.setAddr1(addr1);
+				dto.setAddr2(addr2);
+				
+				boolean result = service.MemberInsert(dto);
+				
+				req.getRequestDispatcher("/WEB-INF/view/login/loginCompletion.jsp").forward(req, resp);
+			}
 	}catch(Exception e) {
 		e.printStackTrace();
 	}

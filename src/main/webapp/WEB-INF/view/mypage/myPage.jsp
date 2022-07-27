@@ -18,7 +18,7 @@
 
           <div class="profile">
             <div class="profile-picture">
-              <a href="#"><img src="../image/프로필사진.jpg" class=profile-picture alt="profile picture"></a>
+              <a href="#"><img src="/resources/image/프로필사진.jpg" class=profile-picture alt="profile picture"></a>
             </div>
             
             <div class="information" style="width:75%; height:100%; margin-left:15px;">
@@ -31,7 +31,7 @@
               
               <div>
                 <a href="Inform_change.jsp" class="setting">
-                  <img src="../image/정보수정버튼.png" alt="information changebutton"></a>
+                  <img src="/resources/image/정보수정버튼.png" alt="information changebutton"></a>
               </div>
           </div>
           <hr>
@@ -62,8 +62,8 @@
             <div id="product-suggestion">
               <h6>닥터지</h6><h3>레드블레미쉬 크림</h3>
             </div>
-            <a href="../Product/ProductMain.jsp">
-              <img src="../image/선크림.png" style="width:100px; height:100px;" alt="suncream">
+            <a href="/resources/Product/ProductMain.jsp">
+              <img src="/resources/image/선크림.png" style="width:100px; height:100px;" alt="suncream">
             </a>
           </div>
           <hr>

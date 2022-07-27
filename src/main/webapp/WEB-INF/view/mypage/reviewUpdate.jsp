@@ -16,7 +16,7 @@
         <!-- 제품정보 -->
         <div id="PInformation">
           <div id="ProductImage">
-            <img src="../image/크림.png" width="80px" height="80px">
+            <img src="/resources/image/크림.png" width="80px" height="80px">
           </div>
           <div id="PText">
             <h6 id="brandName">닥터지</h6>
@@ -55,8 +55,8 @@
           </div>
         </div>
         <div class="picture">
-          <img src="../image/크림.png"> 
-          <img src="../image/크림.png" >
+          <img src="/resources/image/크림.png"> 
+          <img src="/resources/image/크림.png" >
         </div>
 
         <!-- 등록버튼 -->

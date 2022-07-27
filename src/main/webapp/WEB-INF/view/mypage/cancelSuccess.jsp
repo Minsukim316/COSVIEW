@@ -13,7 +13,7 @@
      <h1>회원탈퇴</h1>
     </div>
         <div class="success-page">
-        <img src="../image/check.png" alt="check logo">
+        <img src="/resources/image/check.png" alt="check logo">
         <h2>탈퇴가 완료되었습니다.</h2><hr>
         <h5>그동안 코스뷰를 이용해 주셔서 감사합니다.<br>
         보다 나은 서비스로 찾아뵙겠습니다..</h5>

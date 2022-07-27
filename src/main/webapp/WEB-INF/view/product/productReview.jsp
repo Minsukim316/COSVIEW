@@ -63,10 +63,10 @@
         <div class="productPicture">
             <div id="container" class="swiper">
                 <ul id="banner" class="swiper-wrapper">
-                    <li class="swiper-slide"><a href='#'><img src="../image/크림.png" alt=""></a></li>
-                    <li class="swiper-slide"><a href='#'><img src="../image/선크림.png" alt=""></a></li>
-                    <li class="swiper-slide"><a href='#'><img src="../image/밤.png" alt=""></a></li>
-                    <li class="swiper-slide"><a href='#'><img src="../image/크림.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href='#'><img src="/resources/image/크림.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href='#'><img src="/resources/image/선크림.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href='#'><img src="/resources/image/밤.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href='#'><img src="/resources/image/크림.png" alt=""></a></li>
                 </ul>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>
